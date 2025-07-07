@@ -147,8 +147,9 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
   - 本拡張機能はGoogleが開発したものではなく、Google YouTubeその他企業とは何ら関係のない個人が開発したものです。
   - 本拡張機能について予告なく機能の変更や、サービスの提供の終了などが行われる可能性があります。
 
-## License
+## Copyright & License
 
   - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright 2025 tumin-dosu. All rights reserved. contact : tumin_sfre@outlook.com
+CONTACT : tumin_sfre@outlook.com
+Copyright 2025 tumin-dosu. All rights reserved.
