@@ -1,4 +1,4 @@
-#  Youtube-Data-Detail
+#  Youtube-Date-Detail
 
 YouTubeの動画リストで相対的な日付表示（「3年前」など）の横に**実際のアップロード年月日**を表示するChrome拡張機能です。
 配信者やVtuberなどで過去のアーカイブなどをさかのぼり複数視点のアーカイブを見る時などに便利です。
@@ -121,6 +121,7 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 - 大量の動画を閲覧する場合は制限に注意してください
 - APIキーは安全に管理し、他人に共有しないでください
 - APIキーの制限設定を適切に行ってください
+- この拡張機能はLGPLライセンスであり、ソースコードは以下のURLから入手できます： https://github.com/tumin-dosu/yt-date-detail
 
 ## 更新履歴
 
@@ -133,6 +134,8 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
   - 関連動画部分に反応しない不具合を修正
 - v2.4:Chrome Web Store公開版
   - セキュリティの向上とオプション画面の追加
+- v2.5:ライセンスの変更
+  - ライセンスなどの表示の追加
 
 ## 謝礼
 
@@ -149,7 +152,7 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 
 ## Copyright & License
 
-  - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+  - This project is licensed under the LGPL v3 - see the [LICENSE](LICENSE) file for details.
 
-  CONTACT : tumin_sfre@outlook.com    
+  CONTACT : tumin_sfre@outlook.com<br><br>
   ***Copyright © 2025 tumin-dosu. All rights reserved.***
