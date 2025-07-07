@@ -1,7 +1,7 @@
 #  Youtube-Data-Detail
 
 YouTubeの動画リストで相対的な日付表示（「3年前」など）の横に**実際のアップロード年月日**を表示するChrome拡張機能です。
-配信者やVtuberなどで過去のアーカイブなどをさかのぼるり複数視点のアーカイブを見る時などに便利です。
+配信者やVtuberなどで過去のアーカイブなどをさかのぼり複数視点のアーカイブを見る時などに便利です。
 
 ## 機能
 
@@ -21,27 +21,36 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 
 ### 1. Google Cloud Console でプロジェクトを作成
 
-1. [Google Cloud Console](https://console.cloud.google.com/) にアクセス
-2. 新しいプロジェクトを作成（または既存のプロジェクトを選択）
+1. [Google Cloud Console](https://console.cloud.google.com/) にアクセスしGoogleアカウントでログイン
+2. 左上のプロジェクトの選択→新しいプロジェクト
+https://github.com/user-attachments/assets/8739d249-7246-4a0b-9920-683601ef73d6
+3. 分かりやすいプロジェクト名を設定
 
 ### 2. YouTube Data API v3 を有効化
 
-1. 左側のメニューから「APIとサービス」→「ライブラリ」を選択
-2. 「YouTube Data API v3」を検索
-3. 「有効にする」をクリック
+1. プロジェクトを選択から先ほど作ったプロジェクトを選択
+2. 左上の三重線をクリックし「APIとサービス」から「ライブラリ」を選択
+https://github.com/user-attachments/assets/afd514f8-4f87-4514-b0c5-e0f80bf648c7
+3. 検索窓でYoutube data api v3を検索
+4. 選択し「有効にする」をクリック
+https://github.com/user-attachments/assets/d1022e58-7b85-4e80-8916-ab0c1412e2fc
+
 
 ### 3. APIキーを作成
 
-1. 左側のメニューから「APIとサービス」→「認証情報」を選択
+1. 認証情報タブに移動
+https://github.com/user-attachments/assets/1697d359-ccbb-4e8a-a930-1258478e0e9d
 2. 「認証情報を作成」→「APIキー」を選択
 3. 作成されたAPIキーをコピー（後で使用）
 
 ### 4. APIキーを制限（推奨）
 
-1. 作成したAPIキーの設定画面で「APIキーを制限」を選択
+1. 作成したAPIキーの名前をクリックして設定画面を表示
+https://github.com/user-attachments/assets/d199aa88-4e7d-4267-be3e-397062857fce
 2. 「キーの制限」で「HTTPリファラー（ウェブサイト）」を選択
 3. 「ウェブサイトの制限」に `https://www.youtube.com/*` を追加
-4. 「API の制限」で「キーを制限」を選択し、「YouTube Data API v3」のみを選択
+4. 「API の制限」で「キーを制限」を選択し、「YouTube Data API v3」を選択し保存
+https://github.com/user-attachments/assets/6be1472f-d8c3-47cc-908f-c4d817c065ae
 
 ## インストール方法
 
@@ -63,13 +72,19 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 1. Chromeで `chrome://extensions/` を開く
 2. yt-data-detailの詳細をクリック
 3. 拡張機能のオプションをクリック
-4. APIキーを入力
+4. APIキーを入力(先ほどコピーしたものを入力 コピーしたものが消えた場合は先ほどの認証情報→鍵を表示でコピー)
+https://github.com/user-attachments/assets/40854cf7-391c-40d0-9ffd-edd19a97ce39
 
 ### 2. 動作確認
 
 - マウスカーソルをタイトルに合わせ続けると動画リストで「3年前」などの相対的な日付表示の横に「2018/03/06」のような実際のアップロード日が表示されます
 - 「(取得中...)」と表示され、API呼び出し完了後に実際の日付に変わります
 
+## 設定項目
+  
+  - デバックモードを有効にする : デバックモードを有効にします 基本的にはオフにしてください
+  - リセット　　　　　　　　　 : 設定をリセットします
+  
 ## トラブルシューティング
 
 ### APIキーエラーの場合
