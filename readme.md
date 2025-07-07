@@ -151,5 +151,5 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 
   - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-  CONTACT : tumin_sfre@outlook.com
+  CONTACT : tumin_sfre@outlook.com  
   Copyright © 2025 tumin-dosu. All rights reserved.
