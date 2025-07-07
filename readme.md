@@ -86,7 +86,7 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 
 1. Chromeで `chrome://extensions/` を開く
 
-2. yt-data-detailの詳細をクリック
+2. YouTube-Date-Detailの詳細をクリック
 
 3. 拡張機能のオプションをクリック
 
