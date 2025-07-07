@@ -89,7 +89,7 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 3. 拡張機能のオプションをクリック
 
 4. APIキーを入力(先ほどコピーしたものを入力 コピーしたものが消えた場合は先ほどの認証情報→鍵を表示でコピー)
-![画像]https://github.com/user-attachments/assets/40854cf7-391c-40d0-9ffd-edd19a97ce39
+![画像](https://github.com/user-attachments/assets/40854cf7-391c-40d0-9ffd-edd19a97ce39)
 
 ### 2. 動作確認
 
