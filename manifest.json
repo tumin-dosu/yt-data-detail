@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Date Display",
+  "version": "2.3",
+  "description": "YouTubeの動画リストで相対的な日付表示の横にアップロード年月日を表示します。デバックモードに入るにはcontent.js内でdebugをtrue。",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.googleapis.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

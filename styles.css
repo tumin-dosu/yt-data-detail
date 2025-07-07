@@ -1,0 +1,48 @@
+/* YouTube Date Display Extension Styles */
+
+.absolute-date {
+  color: var(--yt-spec-text-secondary);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 1;
+  margin-left: 4px;
+}
+
+/* ダークモード対応 */
+html[dark] .absolute-date,
+[dark] .absolute-date {
+  color: #aaa;
+}
+
+/* 異なるレイアウトでの調整 */
+ytd-video-meta-block .absolute-date {
+  display: inline-block;
+}
+
+ytd-compact-video-renderer .absolute-date {
+  font-size: 12px;
+}
+
+ytd-grid-video-renderer .absolute-date {
+  font-size: 13px;
+}
+
+/* ホバー効果 */
+.absolute-date:hover {
+  opacity: 1;
+}
+
+/* 小さな画面での調整 */
+@media (max-width: 768px) {
+  .absolute-date {
+    font-size: 11px;
+  }
+}
+
+/* 概要欄は左マージンを無効化 */
+#meta-contents .absolute-date,
+#description .absolute-date,
+#info .absolute-date {
+  margin-left: 0 !important;
+}
