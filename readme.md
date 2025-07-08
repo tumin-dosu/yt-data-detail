@@ -64,11 +64,14 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 
 ## インストール方法
 
-### 1. ファイルの準備
+### 1. [Chrome Web Store](https://chromewebstore.google.com/detail/oocnjlebnobfakindfoocaoodegeapfe?utm_source=item-share-cb)からインストール
 
-1. [ここ](https://github.com/tumin-dosu/yt-date-detail/releases/latest)のSource code(zip)をクリックして最新版をダウンロード
+  - Chrome Web Storeから追加してください
+  - 追加できたら使用方法まで飛ばしてください
 
-2. srcフォルダ内のすべてのファイルを保存したフォルダを用意してください。(srcフォルダの名称を変更する、もしくは変更しないで後述の際にsrcフォルダを指定してもインストールは可能です)
+### 1. マニュアルインストール:ファイルの準備
+
+- 全てのファイルを同じフォルダに保存してください
 
 ### 2. Chrome拡張機能として読み込み
 
@@ -86,7 +89,7 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 
 1. Chromeで `chrome://extensions/` を開く
 
-2. YouTube-Date-Detailの詳細をクリック
+2. yt-data-detailの詳細をクリック
 
 3. 拡張機能のオプションをクリック
 
@@ -138,8 +141,7 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
   - セキュリティの向上とオプション画面の追加
 - v2.5:ライセンスの変更
   - ライセンスなどの表示の追加
-- v2.6:オプション画面の変更
-  - オプション画面にgithubへの誘導を追加
+
 ## 謝礼
 
 - モチベーションを与えてくれる剣持と全てのにじさんじライバーの方々
@@ -161,7 +163,7 @@ https://tumin-dosu.booth.pm/
 
 ## Copyright & License
 
-  This project is licensed under the LGPL v3 - see the [LICENSE](LICENSE) file for details.
+  - This project is licensed under the LGPL v3 - see the [LICENSE](LICENSE) file for details.
 
   CONTACT : tumin_sfre@outlook.com<br><br>
   ***Copyright © 2025 tumin-dosu. All rights reserved.***
