@@ -16,7 +16,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 /*
  * @file YouTube Absolute Date Display Extension
- * @version 2.5 (Security Enhanced)
+ * @version 2.6 (Security Enhanced)
  * @author tumin-dosu
  * @date 2025-07-07
  * @description YouTube動画の相対日付表示の横に投稿年月日を追加するChrome拡張機能

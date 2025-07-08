@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "YouTube-Date-Detail",
-  "version": "2.5",
+  "version": "2.6",
   "description": "YouTubeの動画リストでタイトルにカーソルを合わせ続けると相対的な日付表示の横にアップロード年月日を表示します。",
   "permissions": [
     "storage"

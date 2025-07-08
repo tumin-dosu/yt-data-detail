@@ -16,7 +16,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
  * YouTube Date detail
- * @version 2.5
+ * @version 2.6
  * @author tumin-dosu
  */
 
