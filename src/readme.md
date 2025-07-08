@@ -64,7 +64,12 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 
 ## インストール方法
 
-### 1. ファイルの準備
+### 1. [Chrome Web Store](https://chromewebstore.google.com/detail/oocnjlebnobfakindfoocaoodegeapfe?utm_source=item-share-cb)からインストール
+
+  - Chrome Web Storeから追加してください
+  - 追加できたら使用方法まで飛ばしてください
+
+### 1. マニュアルインストール:ファイルの準備
 
 - 全てのファイルを同じフォルダに保存してください
 
