@@ -138,7 +138,8 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
   - セキュリティの向上とオプション画面の追加
 - v2.5:ライセンスの変更
   - ライセンスなどの表示の追加
-
+- v2.6:オプション画面の変更
+  - オプション画面にgithubへの誘導を追加
 ## 謝礼
 
 - モチベーションを与えてくれる剣持と全てのにじさんじライバーの方々
@@ -160,7 +161,7 @@ https://tumin-dosu.booth.pm/
 
 ## Copyright & License
 
-  - This project is licensed under the LGPL v3 - see the [LICENSE](LICENSE) file for details.
+  This project is licensed under the LGPL v3 - see the [LICENSE](LICENSE) file for details.
 
   CONTACT : tumin_sfre@outlook.com<br><br>
   ***Copyright © 2025 tumin-dosu. All rights reserved.***
