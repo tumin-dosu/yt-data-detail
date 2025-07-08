@@ -89,7 +89,7 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
 
 1. Chromeで `chrome://extensions/` を開く
 
-2. yt-data-detailの詳細をクリック
+2. Youtube-Date-Detailの詳細をクリック
 
 3. 拡張機能のオプションをクリック
 
@@ -141,6 +141,8 @@ YouTubeの動画リストで相対的な日付表示（「3年前」など）の
   - セキュリティの向上とオプション画面の追加
 - v2.5:ライセンスの変更
   - ライセンスなどの表示の追加
+- v2.6:readmeの変更
+  - 詳細の追加
 
 ## 謝礼
 
@@ -163,7 +165,7 @@ https://tumin-dosu.booth.pm/
 
 ## Copyright & License
 
-  - This project is licensed under the LGPL v3 - see the [LICENSE](LICENSE) file for details.
+  This project is licensed under the LGPL v3 - see the [LICENSE](LICENSE) file for details.
 
   CONTACT : tumin_sfre@outlook.com<br><br>
   ***Copyright © 2025 tumin-dosu. All rights reserved.***
