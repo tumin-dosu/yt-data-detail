@@ -125,9 +125,9 @@ class YouTubeAPI {
       this.apiKey = result.youtubeApiKey || null;
       this.isDebugMode = result.debugMode || false;
       
-      Utils.debugLog(this.isDebugMode, 'API初期化完了', { 
-        hasApiKey: !!this.apiKey, 
-        debugMode: this.isDebugMode 
+      Utils.debugLog(this.isDebugMode, 'API初期化完了', {
+        hasApiKey: !!this.apiKey,
+        debugMode: this.isDebugMode
       });
       
       if (!this.apiKey) {
